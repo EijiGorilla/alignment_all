@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.mapDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overviewMapdDiv {
+  position: fixed;
+  z-index: 1;
+  /* top: 200px; */
+  width: 8.5%;
+  height: 18%;
+  border: 1.7px solid grey;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 1%;
+  width: 15%;
+  height: 'auto';
+  margin-bottom: 1%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Change font properties inside CalciteCard */
+/* calcite-label {
+  --calcite-color-text-1: #9ca3af;
+  --calcite-font-size--1: 1.1rem;
+   margin-top: 1vh; 
+  margin-left: 15px;
+  margin-top: 5px;
+} 
+*/
+
+‍‍‍ .esri-legend__layer-caption {
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
+.esri-legend * {
+  background-color: #2b2b2b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a9a9a9;
+
+  /*#032235*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a9a9a9;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a9a9a9;
 }
