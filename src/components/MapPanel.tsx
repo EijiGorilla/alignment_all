@@ -44,7 +44,8 @@ import {
   dateUpdate,
 } from '../Query';
 import '@esri/calcite-components/dist/components/calcite-card';
-import { CalciteCard } from '@esri/calcite-components-react';
+import '@esri/calcite-components/dist/components/calcite-button';
+import { CalciteCard, CalciteButton } from '@esri/calcite-components-react';
 import ProjectListDisplay, { useProjectListContext } from './ProjectPanelContext';
 import CategoryListDisplay, { useCategoryListContext } from './CateogryPanelContext';
 
@@ -86,6 +87,12 @@ function MapPanel() {
       view.container = mapDiv.current;
       view.ui.components = [];
       view.ui.empty('top-left');
+
+      // Launch button
+      const launchButton = document.querySelector(
+        `[id="launch-button"]`,
+      ) as HTMLCalciteButtonElement;
+      view.ui.add(launchButton, 'top-left');
 
       // Compass
       compass.container = compassDiv.current;
@@ -266,6 +273,17 @@ function MapPanel() {
   return (
     <>
       <div className="mapDiv" ref={mapDiv}></div>
+
+      {/* Launch button*/}
+      <CalciteButton
+        id="launch-button"
+        href="https://eijigorilla.github.io/alignment_all"
+        icon-end="launch"
+        scale="s"
+        label="Open in a new tab"
+        target="_blank"
+      ></CalciteButton>
+
       {/* Control Panel*/}
       <div id="controlpanel">
         <CalciteCard style={{ fontSize: '0.5rem' }}>
@@ -343,7 +361,7 @@ function MapPanel() {
       {/* Train Operation Schedule*/}
       <img
         style={{
-          display: trainOperationScheduleForAll === true ? 'block' : 'none',
+          display: 'none', // trainOperationScheduleForAll === true ? 'block' : 'none',
           opacity: printPanelExpanded === true ? '0%' : '100%',
         }}
         src="https://EijiGorilla.github.io/Symbols/Gallery/Train_Operation_20240711.jpg"
