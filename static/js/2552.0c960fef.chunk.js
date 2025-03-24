@@ -1,0 +1,2 @@
+/*! For license information please see 2552.0c960fef.chunk.js.LICENSE.txt */
+"use strict";(self.webpackChunkalignment_all=self.webpackChunkalignment_all||[]).push([[2552],{72552:(e,l,n)=>{n.r(l),n.d(l,{CalcitePopover:()=>t,defineCustomElement:()=>s});var a=n(53794);const t=a.P,s=a.d}}]);

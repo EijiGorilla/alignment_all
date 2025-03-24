@@ -1,0 +1,2 @@
+/*! For license information please see 8847.08ec228e.chunk.js.LICENSE.txt */
+"use strict";(self.webpackChunkalignment_all=self.webpackChunkalignment_all||[]).push([[8847],{28847:(e,l,n)=>{n.r(l),n.d(l,{CalciteChip:()=>t,defineCustomElement:()=>s});var a=n(5569);const t=a.C,s=a.d}}]);

@@ -1,0 +1,2 @@
+/*! For license information please see 5423.85696640.chunk.js.LICENSE.txt */
+"use strict";(self.webpackChunkalignment_all=self.webpackChunkalignment_all||[]).push([[5423],{65423:(e,l,a)=>{a.r(l),a.d(l,{CalciteLabel:()=>t,defineCustomElement:()=>s});var n=a(22943);const t=n.L,s=n.d}}]);

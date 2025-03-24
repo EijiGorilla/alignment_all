@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalignment_all=self.webpackChunkalignment_all||[]).push([[5047],{5047:(l,c,a)=>{a.r(c),a.d(c,{default:()=>d});const d="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjIiPjxjaXJjbGUgY3g9IjEyOCIgY3k9IjEyOCIgcj0iMTIxIi8+PC9zdmc+"}}]);
+//# sourceMappingURL=5047.eed9c014.chunk.js.map
