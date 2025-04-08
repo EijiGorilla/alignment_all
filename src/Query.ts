@@ -415,10 +415,10 @@ function n1Graphics(xoffset: any, yoffset: any) {
     // 2. Add text symbol
     for (var i = 0; i < points.length; i++) {
       if (i <= points.length - 2) {
-        const pointTextX = CPs[i] === 'CP101' ? points[i][0] - 0.1 : points[i][0] - 0.03;
-        const pointTextY0 = CPs[i] === 'CP101' ? points[i][1] : points[i][1];
+        const pointTextX = CPs[i] === 'CP02' ? points[i][0] - 0.1 : points[i][0] - 0.03;
+        const pointTextY0 = CPs[i] === 'CP02' ? points[i][1] : points[i][1];
         const pointTextY1 =
-          CPs[i] === 'CP101' || CPs[i] === 'CP105' ? points[i + 1][1] - 0.02 : points[i + 1][1];
+          CPs[i] === 'CP02' || CPs[i] === 'CP05' ? points[i + 1][1] - 0.02 : points[i + 1][1];
         const pointTextY = (pointTextY0 + pointTextY1) / 2;
 
         const point: any = {

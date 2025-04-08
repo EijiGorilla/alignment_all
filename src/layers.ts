@@ -293,13 +293,13 @@ export const n1CenterlineLayer = new FeatureLayer({
 
 export const n1BreakPointsCP = new FeatureLayer({
   portalItem: {
-    id: 'f82b7c9fc8744a99881ce2507f56675b',
+    id: '3adf245151f94bddb2425dbef365e148',
     portal: {
       url: 'https://gis.railway-sector.com/portal',
     },
   },
   title: 'N1 Break Points',
-  layerId: 2,
+  // layerId: 2,
   definitionExpression: 'Id >= 1',
   popupEnabled: false,
   renderer: pointSymbol,

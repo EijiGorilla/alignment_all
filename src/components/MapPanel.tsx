@@ -89,10 +89,7 @@ function MapPanel() {
       view.ui.empty('top-left');
 
       // Launch button
-      const launchButton = document.querySelector(
-        `[id="launch-button"]`,
-      ) as HTMLCalciteButtonElement;
-      view.ui.add(launchButton, 'top-left');
+      const launchButton = document.querySelector(`[id=launch-button]`) as HTMLDivElement;
 
       // Compass
       compass.container = compassDiv.current;
@@ -112,6 +109,7 @@ function MapPanel() {
       // Station Name Panel (NSCR, NSCR-Ex)
       stationExpand.content = document.querySelector(`[id="stationpanel"]`) as HTMLDivElement;
       view.ui.add(stationExpand, 'bottom-right');
+      view.ui.add(launchButton, 'top-left');
     }
   }, []);
 
